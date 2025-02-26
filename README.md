@@ -1,4 +1,4 @@
-# mongodb master guide
+# mongo DB master guide
 
 <img src="./mongodb.png" width="10%" alt="mongidb master guide">
 
