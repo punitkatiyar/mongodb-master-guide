@@ -9,4 +9,15 @@ A database is an organized collection of data that is stored and managed in a wa
 
 - SQL Database : table
 
-- NoSQL Database : collection with json document  
+- NoSQL Database : collection with json document
+
+
+# setup mongoDb
+
+> https://www.mongodb.com/try/download/community
+
+> https://www.mongodb.com/try/download/shell
+
+
+
+  
