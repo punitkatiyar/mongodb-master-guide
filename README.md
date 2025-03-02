@@ -18,6 +18,8 @@ A database is an organized collection of data that is stored and managed in a wa
 
 > https://www.mongodb.com/try/download/shell
 
+<img src="./mongosh.png" width="100%"> 
+
 
 
   
