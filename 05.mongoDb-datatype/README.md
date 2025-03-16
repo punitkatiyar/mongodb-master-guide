@@ -4,9 +4,9 @@
 
 - Double
 
-- 32-bit Integer
+- **32-bit Integer** 4 byte
 
-- 64-bit Integer
+- **64-bit Integer** 8 byte
 
 - Boolen
 
