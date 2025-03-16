@@ -2,19 +2,21 @@
 
 ## Create Database 
 
-- use database_name
+- **use database_name** : create Database
+
+- **db.dropDatabase()** : remove database
 
 ## create Collection
 
-- db.createCollection("students")
+- **db.createCollection("students")** : create collection
 
-- show collections
+- **show collections**
 
-- db.students.renameCollection("usres")
+- **db.students.renameCollection("usres")** : rename collection
 
-- db.users.help()
+- **db.users.help()** 
 
-- db.users.drop()
+- **db.users.drop()** : drop collection
 
   
 
