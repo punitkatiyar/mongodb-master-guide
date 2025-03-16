@@ -12,6 +12,10 @@
 
 - db.students.renameCollection("usres")
 
-- 
+- db.users.help()
+
+- db.users.drop()
+
+  
 
   
