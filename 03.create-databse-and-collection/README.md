@@ -6,6 +6,12 @@
 
 ## create Collection
 
-- db.createCollection("collection_name")
+- db.createCollection("students")
+
+- show collections
+
+- db.students.renameCollection("usres")
+
+- 
 
   
