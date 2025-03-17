@@ -8,3 +8,12 @@ db.collection.updateOne(
   {$set:{update_field:"new value"}}
 )
 ```
+
+## Update Multiple Document
+
+```
+db.collection.updateMany(
+  {field:"value"},
+  {$set:{update_field:"new value"}}
+)
+```
