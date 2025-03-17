@@ -20,6 +20,24 @@ A database is an organized collection of data that is stored and managed in a wa
 
 <img src="./mongosh.png" width="100%"> 
 
+# MongoDB
 
+## Introduction to MongoDB
+
+- Installing MongoDB
+
+- The current SQL/NoSQL landscape
+
+- Document-oriented vs. other types of storage
+
+- Mongo's featureset
+
+- Common use-cases
+
+- MongoDB databases
+
+- MongoDB Collections
+
+- MongoDB Documents
 
   
