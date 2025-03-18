@@ -22,29 +22,26 @@ db.collection.updateMany(
 
 - $set
 
-- $unset
+- $unset : remove the field from document
 
-- $rename
+- $rename : rename the field
 
-- $inc
+- $inc : increments the field value
 
-- $mul
+- $mul : multiplies the field value
 
-- $currentDate
+- $currentDate : Set the field Value to the current data
 
-- $min
-
-- $max
 
 ## Array Oprater 
 
-- $push
+- $push : add an element to an array
 
-- $pop
+- $pop : remove
 
-- $pull
+- $pull : remove all
 
-- $addToSet :
+- $addToSet : 
 
 
 
