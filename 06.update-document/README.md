@@ -17,3 +17,35 @@ db.collection.updateMany(
   {$set:{update_field:"new value"}}
 )
 ```
+
+## Update Oprater List
+
+- $set
+
+- $unset
+
+- $rename
+
+- $inc
+
+- $mul
+
+- $currentDate
+
+- $min
+
+- $max
+
+## Array Oprater 
+
+- $push
+
+- $pop
+
+- $pull
+
+- $addToSet :
+
+
+
+
