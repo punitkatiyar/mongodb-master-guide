@@ -12,7 +12,7 @@
 
 ## Check The Version
 
-> "C:\Program Files\MongoDB\Server\8.0\bin\mongod.exe" --version
+- "C:\Program Files\MongoDB\Server\8.0\bin\mongod.exe" --version
 
 ```
 db version v8.0.5
@@ -29,7 +29,7 @@ Build Info: {
 }
 ```
 
-> "C:\Program Files\MongoDB\Server\8.0\bin\mongos.exe" --version
+- "C:\Program Files\MongoDB\Server\8.0\bin\mongos.exe" --version
 
 ```
 mongos version v8.0.5
