@@ -18,3 +18,21 @@ db.collection.find({city:delhi})
 db.collection.findOne({city:delhi})
 ```
 
+
+## Projection
+
+```
+db.collection.find(
+  { course : "node" },
+  { name:1, age:1,_id:0 }
+)
+```
+**or**
+
+```
+db.collection.find({ course : "node" }.projection({name:1,course:1,_id:0}))
+
+```
+
+
+
