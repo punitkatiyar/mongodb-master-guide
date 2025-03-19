@@ -36,18 +36,16 @@
 
 - Null
 
-- Regular Expression
-
 - Timestamp
 
 - Date
 
 - ObjectId
 
-## Example Insert Document
+## Example of Collection
 
 ```
-db.users.insertOne({
+{
   name:"tester"
   age:35,
   married:false,
@@ -60,7 +58,7 @@ db.users.insertOne({
     "city":"delhi",
     "zip":201007
 }
-})
+}
 ```
 
 
