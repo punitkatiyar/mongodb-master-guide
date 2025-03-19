@@ -22,5 +22,7 @@ db.users.insertMany(
 )
 ```
 
-- **db.users.find()** show document
+## Display Document
+
+> db.users.find() 
   
