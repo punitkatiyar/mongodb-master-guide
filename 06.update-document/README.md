@@ -13,7 +13,7 @@ db.collection.updateOne(
 
 ```
 db.collection.updateMany(
-  {field:"value"},
+  {},
   {$set:{update_field:"new value"}}
 )
 ```
