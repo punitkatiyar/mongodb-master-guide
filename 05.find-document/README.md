@@ -39,6 +39,27 @@ db.collection.find({ course : "node" }.projection({name:1,course:1,_id:0}))
 db.collection.find().projection({name:1,course:1,_id:0})
 
 ```
+## Find with Count  Records
+
+```
+db.collection.find().count()
+```
+
+## Find with Sorting Order
+
+```
+1  : Ascending Order
+-1 : Descending Order
+
+db.collection.find().sort({field:1})
+```
+
+
+
+
+
+
+
 
 
 
