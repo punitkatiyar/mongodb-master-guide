@@ -33,6 +33,12 @@ db.collection.find(
 db.collection.find({ course : "node" }.projection({name:1,course:1,_id:0}))
 
 ```
+## Projection All Data
+
+```
+db.collection.find().projection({name:1,course:1,_id:0})
+
+```
 
 
 
