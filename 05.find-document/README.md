@@ -54,6 +54,16 @@ db.collection.find().count()
 db.collection.find().sort({field:1})
 ```
 
+## find with Limited Records
+
+```
+db.collection.find().limit(5)
+db.collection.find().limit(5).skip(5)
+```
+
+
+
+
 
 
 
