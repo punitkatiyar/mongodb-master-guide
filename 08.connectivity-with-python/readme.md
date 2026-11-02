@@ -7,4 +7,17 @@ Python Connectivity With MongoDB
 - CRUD operations
 - Range Queries
 
-- 
+
+```py
+from pymongo import MongoClient
+
+client = MongoClient("mongodb://localhost:27017/")
+
+db = client["college"]
+
+students = db["students"]
+
+print("Database:", db.name)
+print("Collection:", students.name)
+
+```
