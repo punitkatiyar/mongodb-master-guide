@@ -16,7 +16,18 @@
 
 > $nin : value is not matched within an array
 
-# Example of Comparison Opraters
+## Create Sample Data
+
+```py
+db.employees.insertMany([
+    {name: "Amit", age: 25, salary: 30000, city: "Delhi"},
+    {name: "Rahul", age: 30, salary: 45000, city: "Noida"},
+    {name: "Priya", age: 28, salary: 50000, city: "Delhi"},
+    {name: "Neha", age: 35, salary: 60000, city: "Mumbai"}
+])
+```
+
+## Example of Comparison Opraters
 
 ```
 db.collectionName.find({age:{$eq:25}})
