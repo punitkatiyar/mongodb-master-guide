@@ -30,12 +30,12 @@ db.employees.insertMany([
 ## Example of Comparison Opraters
 
 ```
-db.collectionName.find({age:{$eq:25}})
-db.collectionName.find({course:{$ne:"html"}})
-db.collectionName.find({age:{$gt:25}})
-db.collectionName.find({age:{$gte:25}})
-db.collectionName.find({age:{$lt:25}})
-db.collectionName.find({age:{$lte:25}})
-db.collectionName.find({age:{$in:[25,30]}})
-db.collectionName.find({age:{$nin:[25,30]}})
+db.employees.find({age:{$eq:25}})
+db.employees.find({course:{$ne:"html"}})
+db.employees.find({age:{$gt:25}})
+db.employees.find({age:{$gte:25}})
+db.employees.find({age:{$lt:25}})
+db.employees.find({age:{$lte:25}})
+db.employees.find({age:{$in:[25,30]}})
+db.employees.find({age:{$nin:[25,30]}})
 ```
